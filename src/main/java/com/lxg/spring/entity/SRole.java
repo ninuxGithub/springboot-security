@@ -11,7 +11,12 @@ public class SRole implements java.io.Serializable {
 
 
 
-    private Integer id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1741004699872146271L;
+
+	private Integer id;
 
     private SUser SUser;
 
